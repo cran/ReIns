@@ -1,9 +1,8 @@
 Package: ReIns
-Version: 1.0.2
-Date: 2017-02-15
+Version: 1.0.3
+Date: 2017-04-18
 Title: Functions from "Reinsurance: Actuarial and Statistical Aspects"
-Description: Functions from the book "Reinsurance: Actuarial and Statistical Aspects" (Wiley, 2017) 
-             by Hansjoerg Albrecher, Jan Beirlant and Jef Teugels.
+Description: Functions from the book "Reinsurance: Actuarial and Statistical Aspects" (Wiley, 2017, forthcoming) by Hansjoerg Albrecher, Jan Beirlant and Jef Teugels.
 Authors@R: c(
           person("Tom", "Reynkens", email = "tomreynkens@hotmail.com", role = c("aut", "cre")),
           person("Roel", "Verbelen", role = "aut", comment = "R code for Mixed Erlang distribution"),
@@ -23,7 +22,7 @@ BugReports: https://github.com/TReynkens/ReIns/issues
 VignetteBuilder: knitr
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2017-02-15 08:37:57 UTC; TomRe
+Packaged: 2017-04-18 10:19:22 UTC; tomr
 Author: Tom Reynkens [aut, cre],
   Roel Verbelen [aut] (R code for Mixed Erlang distribution),
   Anastasios Bardoutsos [ctb] (Original R code for cEPD estimator),
@@ -32,4 +31,4 @@ Author: Tom Reynkens [aut, cre],
   Yuri Goegebeur [ctb] (Original S-Plus code for basic EVT estimators),
   Klaus Herrmann [ctb] (Original R code for GPD estimator)
 Repository: CRAN
-Date/Publication: 2017-02-15 14:28:23
+Date/Publication: 2017-04-18 10:39:41 UTC

@@ -6,7 +6,7 @@
 Estimator of large quantiles using truncated Hill
 }
 \description{
-\code{trQuant} computes estimates of large quantiles \eqn{Q(1-p)} of the truncated data using the estimates for the EVI obtained from the Hill estimator adapted for upper truncation. \code{trQuantW} computes estimates of large quantiles \eqn{Q_W(1-p)} of the original data \eqn{W} which is unobserved.
+\code{trQuant} computes estimates of large quantiles \eqn{Q(1-p)} of the truncated distribution using the estimates for the EVI obtained from the Hill estimator adapted for upper truncation. \code{trQuantW} computes estimates of large quantiles \eqn{Q_W(1-p)} of the parent distribution \eqn{W} which is unobserved.
 }
 \usage{
 trQuant(data, r = 1, rough = TRUE, gamma, DT, p, plot = FALSE, add = FALSE, 
@@ -30,7 +30,7 @@ Logical indicating if rough truncation is present, default is \code{TRUE}.
 Vector of \eqn{n-1} estimates for the EVI obtained from \code{\link{trHill}}.
 }
 \item{DT}{
-Vector of \eqn{n-1} estimates for the odds ratio obtained from \code{\link{trDT}}.
+Vector of \eqn{n-1} estimates for the truncation odds obtained from \code{\link{trDT}}.
 }
   \item{p}{
 The exceedance probability of the quantile (we estimate \eqn{Q(1-p)} for \eqn{p} small).
@@ -49,11 +49,11 @@ Additional arguments for the \code{plot} function, see \code{\link[graphics]{plo
 }
 }
 \details{
-We observe the truncated r.v. \eqn{X=W | W<T} where \eqn{T} is the truncation point and \eqn{W} the untruncated r.v.
+We observe the truncated r.v. \eqn{X=_d W | W<T} where \eqn{T} is the truncation point and \eqn{W} the untruncated r.v.
 
 Under rough truncation, the quantiles for \eqn{X} are estimated using
 \deqn{\hat{Q}(1-p)=X_{n-k,n}  ((\hat{D}_T + (k+1)/(n+1))/(\hat{D}_T+p))^{\hat{\gamma}_k},}
-with \eqn{\hat{\gamma}_k} the Hill estimates adapted for truncation and \eqn{\hat{D}_T} the estimates for the odds ratio.
+with \eqn{\hat{\gamma}_k} the Hill estimates adapted for truncation and \eqn{\hat{D}_T} the estimates for the truncation odds.
 
 Under light truncation, the quantiles are estimated using the Weissman estimator with the Hill estimates replaced
 by the truncated Hill estimates:
@@ -85,7 +85,7 @@ Tom Reynkens based on \code{R} code of Dries Cornilly.
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{trHill}}, \code{\link{trDT}}, \code{\link{trProb}}, \code{\link{trEndpoint}}, \code{\link{trTest}}, \code{\link{Quant}}
+\code{\link{trHill}}, \code{\link{trDT}}, \code{\link{trProb}}, \code{\link{trEndpoint}}, \code{\link{trTest}}, \code{\link{Quant}}, \code{\link{trQuantMLE}}
 }
 \examples{
 # Sample from truncated Pareto distribution.
@@ -96,7 +96,7 @@ X <- rtpareto(n=1000, shape=shape, endpoint=qpareto(0.99, shape=shape))
 # Truncated Hill estimator
 trh <- trHill(X, plot=TRUE, ylim=c(0,2))
 
-# Odds ratio
+# Truncation odds
 dt <- trDT(X, gamma=trh$gamma, plot=TRUE, ylim=c(0,2))
 
 # Large quantile
