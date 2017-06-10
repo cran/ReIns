@@ -29,7 +29,7 @@ Logical indicating if the estimates of \eqn{\gamma} should be plotted as a funct
 Logical indicating if the estimates of \eqn{\gamma} should be added to an existing plot, default is \code{FALSE}.
 }
   \item{main}{
-Title for the plot, default is \code{"Estimates of EVI"}.
+Title for the plot, default is \code{"Estimates of the EVI"}.
 }
   \item{\dots}{
 Additional arguments for the \code{plot} function, see \code{\link[graphics]{plot}} for more details.
@@ -56,8 +56,7 @@ A list with following components:
 \item{conv}{Convergence indicator of \code{\link[stats]{optim}}.}
 }
 \references{
-Beirlant, J., Fraga Alves, M. I. and Reynkens, T. (2017). "Fitting Tails Affected
-by Truncation". \emph{arXiv:1606.02090}.
+Beirlant, J., Fraga Alves, M. I. and Reynkens, T. (2017). "Fitting Tails Affected by Truncation". \emph{Electronic Journal of Statistics}, 11(1), 2026--2065.
 }
 \author{
 Tom Reynkens.

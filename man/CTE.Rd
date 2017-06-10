@@ -30,7 +30,7 @@ where \eqn{\Pi(u)=E((X-u)_+)} is the premium of the excess-loss insurance with r
 If the CDF is continuous in \eqn{p}, we have \eqn{CTE_{1-p}=TVaR_{1-p}= 1/p \int_0^p VaR_{1-s} ds} with
 \eqn{TVaR} the Tail Value-at-Risk.
 
-See Reynkens et al. (2016) and Section 4.6 of Albrecher et al. (2017) for more details.
+See Reynkens et al. (2017) and Section 4.6 of Albrecher et al. (2017) for more details.
 
 The \code{ES} function is the same function as \code{CTE} but is deprecated. 
 }
@@ -40,7 +40,7 @@ Vector with the CTE corresponding to each element of \eqn{p}.
 \references{
 Albrecher, H., Beirlant, J. and Teugels, J. (2017). \emph{Reinsurance: Actuarial and Statistical Aspects}, Wiley, Chichester.
 
-Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2016). "Modeling Censored Losses Using Splicing:
+Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2017). "Modelling Censored Losses Using Splicing:
 a Global Fit Strategy With Mixed Erlang and Extreme Value Distributions". \emph{arXiv:1608.01566}.
 
 Verbelen, R., Gong, L., Antonio, K., Badescu, A. and Lin, S. (2015). "Fitting Mixtures of

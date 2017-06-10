@@ -70,7 +70,7 @@ GPDfit <- function(data, start = c(0.1, 1), warnings = FALSE) {
 
 # Start should be a 2-dimensional vector: (gamma_start,sigma_start)
 GPDmle <- function(data, start = c(0.1, 1), warnings = FALSE, logk = FALSE, 
-                   plot = FALSE, add = FALSE, main = "POT estimates of EVI", ...) {
+                   plot = FALSE, add = FALSE, main = "POT estimates of the EVI", ...) {
   
   # Check input arguments
   .checkInput(data)
@@ -257,7 +257,7 @@ GPDresiduals <- function(data, t, gamma, sigma, plot = TRUE, main = "GPD residua
   
   
   # plots if TRUE
-  .plotfun(res.the, res.emp, type="p", xlab="Quantiles of Standard Exponential", ylab="R", 
+  .plotfun(res.the, res.emp, type="p", xlab="Quantiles of standard exponential", ylab="R", 
            main=main, plot=plot, add=FALSE, ...)
   
   # output list with theoretical quantiles gqq.the

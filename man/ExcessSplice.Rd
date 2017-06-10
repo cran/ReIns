@@ -9,7 +9,7 @@ Estimates for excess-loss premiums using splicing
 Estimate premiums of excess-loss reinsurance with retention \eqn{R} and limit \eqn{L} using fitted spliced distribution.
 }
 \usage{
-ExcessSplice(R, L, splicefit)
+ExcessSplice(R, L=Inf, splicefit)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,7 +17,7 @@ ExcessSplice(R, L, splicefit)
 The retention level of the (re-)insurance or a vector of retention levels for the (re-)insurance.
 }
   \item{L}{
-The limit of the (re-)insurance or a vector of limits for the (re-)insurance.
+The limit for the (re-)insurance or a vector of limits for the (re-)insurance, default is \code{Inf}.
 }
   \item{splicefit}{
 A \code{\link{SpliceFit}} object,  e.g. output from \code{\link{SpliceFitPareto}}, \code{\link{SpliceFiticPareto}} or \code{\link{SpliceFitGPD}}.
@@ -28,7 +28,7 @@ The premium for the excess-loss insurance with retention \eqn{R} and limit \eqn{
 \deqn{E(\min{(X-R)_+, L}) = \Pi(R) - \Pi(R+L)}
 where \eqn{\Pi(u)=E((X-u)_+)=\int_u^{\infty} (1-F(z)) dz} is the premium of the excess-loss insurance with retention \eqn{u}.  When \eqn{L=\infty}, the premium is equal to \eqn{\Pi(R)}.
 
-See Reynkens et al. (2016) and Section 4.6 of Albrecher et al. (2017) for more details.
+See Reynkens et al. (2017) and Section 4.6 of Albrecher et al. (2017) for more details.
 }
 \value{
 An estimate for the premium is returned (for every value of \code{R}).
@@ -36,7 +36,7 @@ An estimate for the premium is returned (for every value of \code{R}).
 \references{
 Albrecher, H., Beirlant, J. and Teugels, J. (2017). \emph{Reinsurance: Actuarial and Statistical Aspects}, Wiley, Chichester.
 
-Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2016). "Modeling Censored Losses Using Splicing:
+Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2017). "Modelling Censored Losses Using Splicing:
 a Global Fit Strategy With Mixed Erlang and Extreme Value Distributions". \emph{arXiv:1608.01566}.
 
 Verbelen, R., Gong, L., Antonio, K., Badescu, A. and Lin, S. (2015). "Fitting Mixtures of
@@ -62,7 +62,7 @@ X <- rpareto(1000, shape = 2)
 splicefit <- SpliceFitPareto(X, 0.8)
 
 # Excess-loss premium 
-ExcessSplice(R=2, L=Inf, splicefit=splicefit)
+ExcessSplice(R=2, splicefit=splicefit)
 }
 }
 

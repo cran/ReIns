@@ -3,6 +3,20 @@
 \encoding{UTF-8}
 
 
+\section{Changes in version 1.0.4 (2017-06-10)}{
+
+ \itemize{
+    \item Remove unnecessary capitals in plot labels.
+    \item Update Reynkens et al. (2017) reference.
+    \item Update Beirlant et al. (2017) reference.
+    \item Include default value for \code{L} in documentation of \code{ExcessSplice}.
+    \item Make sure that both \code{R} and \code{L} have length 1 in \code{ExcessEPD}, \code{ExcessGPD}
+    and \code{ExcessPareto}.
+    \item Add reference to website of Albrecher et al. (2017) in DESCRIPTION.
+ }
+}
+
+
 \section{Changes in version 1.0.3 (2017-04-18)}{
 
  \itemize{

@@ -31,7 +31,7 @@ Initial value provided for \code{M}. When \code{NULL} (default), not included in
 \details{
 The rate parameter \eqn{\lambda} used in Albrecher et al. (2017) is equal to \eqn{1/\theta}.
 
-See Reynkens et al. (2016) and Section 4.3 of Albrecher et al. (2017) for more details
+See Reynkens et al. (2017) and Section 4.3 of Albrecher et al. (2017) for more details
 }
 \value{
 An S3 object which contains the input arguments in a list.
@@ -39,7 +39,7 @@ An S3 object which contains the input arguments in a list.
 \references{
 Albrecher, H., Beirlant, J. and Teugels, J. (2017). \emph{Reinsurance: Actuarial and Statistical Aspects}, Wiley, Chichester.
 
-Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2016). "Modeling Censored Losses Using Splicing:
+Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2017). "Modelling Censored Losses Using Splicing:
 a Global Fit Strategy With Mixed Erlang and Extreme Value Distributions". \emph{arXiv:1608.01566}.
 
 Verbelen, R., Gong, L., Antonio, K., Badescu, A. and Lin, S. (2015). "Fitting Mixtures of

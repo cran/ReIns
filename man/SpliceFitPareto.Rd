@@ -68,7 +68,7 @@ Maximum number of iterations in a single EM algorithm execution (ME part). Defau
 }
 }
 \details{
-See Reynkens et al. (2016), Section 4.3.1 of Albrecher et al. (2017) and Verbelen et al. (2015) for details. The code follows the notation of the latter. Initial values follow from Verbelen et al. (2016).
+See Reynkens et al. (2017), Section 4.3.1 of Albrecher et al. (2017) and Verbelen et al. (2015) for details. The code follows the notation of the latter. Initial values follow from Verbelen et al. (2016).
 
 The \code{SpliceFitHill} function is the same function but with a different name for compatibility with old versions of the package.
 
@@ -82,7 +82,7 @@ Albrecher, H., Beirlant, J. and Teugels, J. (2017). \emph{Reinsurance: Actuarial
 
 Beirlant, J., Fraga Alves, M.I. and Gomes, M.I. (2016). "Tail fitting for Truncated and Non-truncated Pareto-type Distributions." \emph{Extremes}, 19, 429--462.
 
-Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2016). "Modeling Censored Losses Using Splicing:
+Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2017). "Modelling Censored Losses Using Splicing:
 a Global Fit Strategy With Mixed Erlang and Extreme Value Distributions". \emph{arXiv:1608.01566}.
 
 Verbelen, R., Gong, L., Antonio, K., Badescu, A. and Lin, S. (2015). "Fitting Mixtures of

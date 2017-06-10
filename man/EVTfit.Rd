@@ -23,7 +23,7 @@ Vector of scale estimates for the GPD (with the same length as \code{gamma}). Wh
 }
 }
 \details{
-See Reynkens et al. (2016) and Section 4.3 of Albrecher et al. (2017) for details.
+See Reynkens et al. (2017) and Section 4.3 of Albrecher et al. (2017) for details.
 }
 \value{
 An S3 object containing the above input arguments.
@@ -31,7 +31,7 @@ An S3 object containing the above input arguments.
 \references{
 Albrecher, H., Beirlant, J. and Teugels, J. (2017). \emph{Reinsurance: Actuarial and Statistical Aspects}, Wiley, Chichester.
 
-Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2016). "Modeling Censored Losses Using Splicing:
+Reynkens, T., Verbelen, R., Beirlant, J. and Antonio, K. (2017). "Modelling Censored Losses Using Splicing:
 a Global Fit Strategy With Mixed Erlang and Extreme Value Distributions". \emph{arXiv:1608.01566}.
 }
 \author{
