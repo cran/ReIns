@@ -2,6 +2,21 @@
 \title{News for package "ReIns"}
 \encoding{UTF-8}
 
+\section{Changes in version 1.0.6 (2017-12-11)}{
+
+  \subsection{Changes in documentation:}{
+    \itemize{
+      \item Update Reynkens et al. (2017) reference to final version.
+    }
+  }      
+   \subsection{Miscellaneous changes:}{
+     \itemize{
+      \item Correct link to Wiley webpage for Albrecher et al. (2017). 
+    }
+ }      
+
+}
+
 \section{Changes in version 1.0.5 (2017-09-07)}{
 
   \subsection{Changes in \code{C++} code:}{
