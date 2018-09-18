@@ -1,4 +1,4 @@
-e64b1c903eb9080d75e4d95098fcd226 *DESCRIPTION
+5d99827e984617283d25ee4e5a4abc03 *DESCRIPTION
 3c599a5a0e33522780e317b229024cc6 *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
@@ -29,14 +29,14 @@ a19aa91ca317906fb2e8e98d0e758cd8 *R/TruncationMLE.R
 c2bcd7a99fd4265b47ce551ad6a44daa *R/Turnbull_KM.R
 2024b435a4acdd27f73cd5d92c9ac05b *R/cEPD.R
 347af1fb261e39e4fced1fe8e3d40e98 *R/stdf.R
-44ff12fed2ae2192f768692c7f652078 *build/vignette.rds
+ef5ffcc4e3b333f20417ecd9c3e03dcb *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-63776be09c0d25e9fcc6310fe37c9ce5 *inst/NEWS.Rd
+da70aacfa0302c53d2b38897b603b33e *inst/NEWS.Rd
 8dba82dd9d8a2355bb8747e983ed6d3f *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-29a6802188d847bdf7565933768b69c1 *inst/doc/ReIns.html
+bfb16a9706599588051ddc9885ef21ad *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 ad592114b3b13e607f211dfc08305adf *man/EPD.Rd
@@ -130,7 +130,7 @@ f35987c7ba437e0f01e8c86a4b3a8580 *man/norwegianfire.Rd
 4b5a9efee52d1481b56e0e177bf0fe02 *man/pEdge.Rd
 0ee76506d7d166bee746885b702ed187 *man/pGC.Rd
 b2dbbb879058975085c90065364f503f *man/secura.Rd
-89156c41035cac49dec4e485ca91583c *man/soa.Rd
+665690b17145da4d676630a90098b18e *man/soa.Rd
 4631dc04885a487c17f8edaf8d91c69e *man/stdf.Rd
 33c63b0dc6b8febd224028bce535742e *man/tBurr.Rd
 16ab25f3f13176d5e9a4fac06ebfa893 *man/tExp.Rd
@@ -152,7 +152,7 @@ a7504549853abd18422cadb8ad5eccee *man/trProb.Rd
 a4840cb3eb5c4f3a28225b696bd84b21 *man/trQuantMLE.Rd
 c207289d22be72a39062ebbcd58b9b5c *man/trTest.Rd
 31f45475e78da6012251bf744cec4c99 *man/trTestMLE.Rd
-a119851931b117208bc3ccb82a2aa03c *src/Makevars
+e115ccc4677a27e612660f28033879d3 *src/Makevars
 f88cd77555a2828ed4d0fde2161a81d2 *src/RcppExports.cpp
 96c992137bbd1f314b05fe2ec3340021 *src/STDF.cpp
 fc6aaace695cb365114c97512a17a3a7 *src/SpliceEM.cpp
@@ -161,7 +161,7 @@ fc6aaace695cb365114c97512a17a3a7 *src/SpliceEM.cpp
 a7a8ca992960eb1a061e4bf359254682 *src/SpliceEM_Mstep.cpp
 cac98856c5e5613e3d1a7a437cc93562 *src/SpliceEM_Mstep.h
 e90bacde84cc1ec5aed65abf954343db *src/SpliceEM_aux.cpp
-0b54ca7ca78b60b5239224109701bbb8 *src/SpliceEM_aux.h
+774676434e136c8f37e9cd7fdc75ae84 *src/SpliceEM_aux.h
 390cb4c45e0306301dab123b23ddd786 *src/init.c
 9d103061870d7ffda6f8e9e3d70fc906 *tests/testthat.R
 b44c063ae9684484a7044db3f7362883 *tests/testthat/testDist.R
