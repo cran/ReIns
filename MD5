@@ -1,9 +1,9 @@
-5d99827e984617283d25ee4e5a4abc03 *DESCRIPTION
+018886b059c6af04c33b6bf9475b8b42 *DESCRIPTION
 3c599a5a0e33522780e317b229024cc6 *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
-2f09059a398f075b7f1c1f7b2f476e03 *R/Censoring.R
-3ce4a754e7e1ae4a598f7fbb17aa927a *R/Censoring_PQ.R
+f4c9cc2096a8e4ef1ba718d9e3d4a592 *R/Censoring.R
+2ae9c3b0aac6a979819847104ee49447 *R/Censoring_PQ.R
 09dc2bc69907b56daa57dfe72df4a6c9 *R/Cpp_export.R
 c52c025d088baba7f551546b77d9d835 *R/Distributions.R
 5d83f51ca7955ea675f4c55c38aa3896 *R/EPD.R
@@ -17,7 +17,7 @@ dd56859af34f4386aa63b45390d013e1 *R/ME.R
 8d07ed70d227b451fc7b8c0c6048c313 *R/Moment.R
 eb150e182d6be933b1850442682fdebc *R/QQplots.R
 641d7d994d44fdf91d307a9567988561 *R/Raux.R
-b8c16535fc22e491a7581ed18fe1a0d3 *R/RcppExports.R
+4297b72d80e4d4256db99826d14f1f17 *R/RcppExports.R
 e3443842da0d007796d50e3e174d81c5 *R/Regression.R
 56dffb61bc6c794859d4daf604e922e4 *R/RiskMeasures.R
 8064330a74083fcc70cf4f3ce2c05a57 *R/Scale.R
@@ -29,14 +29,14 @@ a19aa91ca317906fb2e8e98d0e758cd8 *R/TruncationMLE.R
 c2bcd7a99fd4265b47ce551ad6a44daa *R/Turnbull_KM.R
 2024b435a4acdd27f73cd5d92c9ac05b *R/cEPD.R
 347af1fb261e39e4fced1fe8e3d40e98 *R/stdf.R
-ef5ffcc4e3b333f20417ecd9c3e03dcb *build/vignette.rds
+ff3e32b4b2aa3c8b15e1daa47126645f *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-da70aacfa0302c53d2b38897b603b33e *inst/NEWS.Rd
-8dba82dd9d8a2355bb8747e983ed6d3f *inst/doc/ReIns.R
+42c2d2d4a09d1402ed22ee7ba07745e0 *inst/NEWS.Rd
+4a4cc3f96b4b3f40bd8f87262b1631ba *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-bfb16a9706599588051ddc9885ef21ad *inst/doc/ReIns.html
+d91e30dea9e81fdf977a939987d08c09 *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 ad592114b3b13e607f211dfc08305adf *man/EPD.Rd
@@ -113,7 +113,7 @@ ed1ea0d1d41dabe83c837a714467f464 *man/cProb.Rd
 26fa96adf2ac16607411e95d56cec94b *man/cProbGPD.Rd
 e85f6ea2e6398f6ae59bb2ca2fcc6247 *man/cProbMOM.Rd
 3da25bead25f989311979e633f4cbba0 *man/cQuant.Rd
-80aee1817e7b95c5e80bd4995bfc25ce *man/cQuantGH.Rd
+71c9ebd944c5dac7c952002e45238c63 *man/cQuantGH.Rd
 8b7c7a8cd630aafed296014de1f5aa6b *man/cQuantGPD.Rd
 09377e08b22c5926bad3c9d4460961b4 *man/cQuantMOM.Rd
 44e4f747a678ea61e09723853f0356c8 *man/cWeibullQQ.Rd
@@ -153,7 +153,7 @@ a4840cb3eb5c4f3a28225b696bd84b21 *man/trQuantMLE.Rd
 c207289d22be72a39062ebbcd58b9b5c *man/trTest.Rd
 31f45475e78da6012251bf744cec4c99 *man/trTestMLE.Rd
 e115ccc4677a27e612660f28033879d3 *src/Makevars
-f88cd77555a2828ed4d0fde2161a81d2 *src/RcppExports.cpp
+5b5bd1938500f885e5badfbfb82e7c59 *src/RcppExports.cpp
 96c992137bbd1f314b05fe2ec3340021 *src/STDF.cpp
 fc6aaace695cb365114c97512a17a3a7 *src/SpliceEM.cpp
 76a55344a8458eac270a74ff54650cc3 *src/SpliceEM_Estep.cpp
@@ -165,5 +165,5 @@ e90bacde84cc1ec5aed65abf954343db *src/SpliceEM_aux.cpp
 390cb4c45e0306301dab123b23ddd786 *src/init.c
 9d103061870d7ffda6f8e9e3d70fc906 *tests/testthat.R
 b44c063ae9684484a7044db3f7362883 *tests/testthat/testDist.R
-2353fb67d9efdd6395ea8d0f455a3804 *tests/testthat/testVectorised.R
+759ffb135e6f14ef38a75045bed8ee69 *tests/testthat/testVectorised.R
 28c478385776e3631e1d92db893c6fba *vignettes/ReIns.Rmd
