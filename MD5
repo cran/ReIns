@@ -1,4 +1,4 @@
-e5a6aad47f62674ad362c40d01ffaccf *DESCRIPTION
+b8dc97b88729cbac7faebaad4defe1f8 *DESCRIPTION
 003d3d9a8f6ff0a908515a3b2e6f09ed *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
@@ -21,7 +21,7 @@ eb150e182d6be933b1850442682fdebc *R/QQplots.R
 e3443842da0d007796d50e3e174d81c5 *R/Regression.R
 90eead6230825ab7bebe9be26c853e2f *R/RiskMeasures.R
 8064330a74083fcc70cf4f3ce2c05a57 *R/Scale.R
-45d6f7aa5f0add3457184b667df70a22 *R/Splicing.R
+0a1f0ca380b10c17a4e228a8f8e36e37 *R/Splicing.R
 3d97da75b0656d82c8eb7d0a3c730b2b *R/Splicing_EM.R
 f6ba658cf279787ae73be2f62cf016a8 *R/Splicing_plots.R
 b3e4c8a8690b304fbb2c86b23d35bae9 *R/Truncation.R
@@ -33,10 +33,10 @@ b1a4a9ec3c04aa3d43e299a7083ffa54 *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-d0e9e892183f5a6cd5b0f5dd7ab38e11 *inst/NEWS.Rd
+a9de15c09dd9bf56acd691cf1545f467 *inst/NEWS.Rd
 4a4cc3f96b4b3f40bd8f87262b1631ba *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-92fe47548d40808c9319645a07d575ba *inst/doc/ReIns.html
+884cba9606af0c702bdb62d8e92686a5 *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 118b90b7767a44c989f93e738a8aaae7 *man/EPD.Rd
