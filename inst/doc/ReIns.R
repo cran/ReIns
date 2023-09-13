@@ -1,4 +1,4 @@
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 library("ReIns")
 
 data("norwegianfire")
@@ -12,7 +12,7 @@ size <- norwegianfire$size
 # Plot Norwegian fire insurance data per year
 plot(year, size, xlab="Year", ylab="Size")
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Exponential QQ-plot
 ExpQQ(size)
@@ -24,7 +24,7 @@ MeanExcess(size)
 # Mean excess plot with k
 MeanExcess(size, k=TRUE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Pareto QQ-plot
 ParetoQQ(size)
@@ -36,7 +36,7 @@ ParetoQQ_der(size)
 # Derivative plot with k
 ParetoQQ_der(size, k=TRUE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Log-normal QQ-plot
 LognormalQQ(size)
@@ -48,7 +48,7 @@ LognormalQQ_der(size)
 # Derivative plot with k
 LognormalQQ_der(size, k=TRUE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Weibull QQ-plot
 WeibullQQ(size)
@@ -60,7 +60,7 @@ WeibullQQ_der(size)
 # Derivative plot with k
 WeibullQQ_der(size, k=TRUE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Hill plot
 H <- Hill(size, plot=TRUE, col="blue")
@@ -70,12 +70,12 @@ EPD(size, add=TRUE, col="orange", lty=2)
 
 legend("bottomright", c("Hill","EPD"), col=c("blue","orange"), lty=1:2)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Generalised QQ-plot
 genQQ(size, gamma=H$gamma)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Generalised Hill estimator
 GH <- genHill(size, gamma=H$gamma, plot=TRUE, col="blue", ylim=c(0.5,0.8))
@@ -85,7 +85,7 @@ M <- Moment(size, add=TRUE, lty=2)
 
 legend("bottomright", c("genHill","Moment"), col=c("blue","black"), lty=1:2)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 p <- 0.005
 
@@ -101,7 +101,7 @@ QuantMOM(size, gamma=M$gamma, p=p, add=TRUE, lty=2)
 
 legend("topright", c("genHill","Moment"), col=c("blue","black"), lty=1:2)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 q <- 10^5
 
@@ -117,7 +117,7 @@ ReturnMOM(size, gamma=M$gamma, q=q, add=TRUE, lty=2)
 
 legend("bottomright", c("genHill","Moment"), col=c("blue","black"), lty=1:2)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Set seed
 set.seed(29072016)
 
@@ -136,7 +136,7 @@ censored <- (X>Y)
 # Hill estimates adapted for right censoring
 cHill(Z, censored, plot=TRUE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Set seed
 set.seed(29072016)
 
@@ -159,14 +159,14 @@ U[censored] <- Inf
 # Mean excess plot
 MeanExcess_TB(Z, U, censored, k=FALSE)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Mean excess plot
 MeanExcess(size)
 
 # Add vertical line at 50% and 99.6% quantiles of the data
 abline(v=quantile(size, c(0.5,0.996)), lty=2)
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  
 #  # Splicing of Mixed Erlang (ME) and 2 Pareto pieces
 #  # Use 3 as initial value for M
@@ -186,7 +186,7 @@ splicefit <- SpliceFit(const=c(0.5,0.996), trunclower=0, t=c(1020,37930), type=c
 # Show summary
 summary(splicefit)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Points to look at
 x <- seq(0, 1*10^5, 10^2)
 
@@ -202,7 +202,7 @@ SplicePP(size, splicefit, log=TRUE)
 # QQ-plot with fitted quantile function
 SpliceQQ(size, splicefit)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Sequence of retentions
 R <- seq(0, 10^6, 10^2)
 
@@ -218,7 +218,7 @@ plot(R, e, type="l", xlab="R", ylab=expression(Pi(R)-Pi(R+L)), ylim=c(0,10^3))
 lines(R, e2, lty=2)
 legend("topright", c(expression("L"==infinity),expression("L"==2*"R")), lty=1:2, lwd=2)
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Take small values for p
 p <- seq(0, 0.01, 0.0001)
@@ -229,7 +229,7 @@ VaR <- VaR(p, splicefit)
 # Plot VaR
 plot(p, VaR, xlab="p", ylab=expression(VaR[1-p]), type="l")
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 # Small values for p
 p <- seq(0.0001, 0.01, 0.0001)
 
@@ -239,7 +239,7 @@ cte <- CTE(p, splicefit)
 # Plot CTE
 plot(p, cte, xlab="p", ylab=expression(CTE[1-p]), type="l")
 
-## ---- fig.width=5, fig.height=3.5, fig.align='center'-------------------------
+## ----fig.width=5, fig.height=3.5, fig.align='center'--------------------------
 
 # Simulate sample of size 1000
 X <- rSplice(1000, splicefit)
@@ -247,7 +247,7 @@ X <- rSplice(1000, splicefit)
 # Plot simulated sample
 plot(X, xlab="Index", ylab="Simulated losses")
 
-## ---- fig.width=8.27, fig.height=5.83, fig.align='center', warning=FALSE------
+## ----fig.width=8.27, fig.height=5.83, fig.align='center', warning=FALSE-------
 
 # Chi-squared sample
 X <- rchisq(1000, 2)
@@ -276,7 +276,7 @@ legend("bottomright", c("True CDF", "normal approximation", "normal-power approx
       lty=1:5, col=c("red", "black", "green", "black", "blue"), lwd=2)
 
 
-## ---- fig.width=8.27, fig.height=5.83, fig.align='center', warning=FALSE------
+## ----fig.width=8.27, fig.height=5.83, fig.align='center', warning=FALSE-------
 x <- seq(0, 10, 0.01)
 
 # Empirical moments

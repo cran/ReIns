@@ -1,4 +1,4 @@
-b8dc97b88729cbac7faebaad4defe1f8 *DESCRIPTION
+6012a686442daf3b76c74ad7c6fbd511 *DESCRIPTION
 003d3d9a8f6ff0a908515a3b2e6f09ed *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
@@ -29,14 +29,14 @@ a19aa91ca317906fb2e8e98d0e758cd8 *R/TruncationMLE.R
 c2bcd7a99fd4265b47ce551ad6a44daa *R/Turnbull_KM.R
 2024b435a4acdd27f73cd5d92c9ac05b *R/cEPD.R
 347af1fb261e39e4fced1fe8e3d40e98 *R/stdf.R
-b1a4a9ec3c04aa3d43e299a7083ffa54 *build/vignette.rds
+57a520a65c999e96ee14027e31bd309e *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-a9de15c09dd9bf56acd691cf1545f467 *inst/NEWS.Rd
-4a4cc3f96b4b3f40bd8f87262b1631ba *inst/doc/ReIns.R
+9d7d42134ba3534226b4724a75204a68 *inst/NEWS.Rd
+50cb4446eb9162834fcccad6eb77902f *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-884cba9606af0c702bdb62d8e92686a5 *inst/doc/ReIns.html
+a3b42854a48b9fa0d747536dc31f068b *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 118b90b7767a44c989f93e738a8aaae7 *man/EPD.Rd
@@ -48,7 +48,7 @@ df805e3c4733f6ecabb6ce2f45bad2b0 *man/ExcessGPD.Rd
 fd7084d73b0d9af36a05dcd381d75b35 *man/ExcessPareto.Rd
 8af88da68b75f17acbee5fcf4868e3cf *man/ExcessSplice.Rd
 752302f99719e495587617da7dde5f2d *man/ExpQQ.Rd
-593a8587f2c682855859c5db2bc28446 *man/Frechet.Rd
+417b52b0957dd561e3761008acfcc311 *man/Frechet.Rd
 44dcf3df45e43fe10fe20a4142959203 *man/GPD.Rd
 68ebf6fd325fcd45d3c3f6442f95bdfc *man/GPDfit.Rd
 36441c6dca71577c502956ed9aef813c *man/GPDmle.Rd
@@ -134,7 +134,7 @@ b2dbbb879058975085c90065364f503f *man/secura.Rd
 4631dc04885a487c17f8edaf8d91c69e *man/stdf.Rd
 33c63b0dc6b8febd224028bce535742e *man/tBurr.Rd
 16ab25f3f13176d5e9a4fac06ebfa893 *man/tExp.Rd
-3d477dcf7187876fec201f25d28deefa *man/tFrechet.Rd
+4c8d04b617bcc27569faf619dca8369e *man/tFrechet.Rd
 4213d6bc9518e444d6a1ba4915200d93 *man/tGPD.Rd
 37fc229e7a39043d7f0f0cfb46a03b69 *man/tPareto.Rd
 273bcf2b5d18509c4e6911fa22965a36 *man/tWeibull.Rd
