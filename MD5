@@ -1,4 +1,4 @@
-6012a686442daf3b76c74ad7c6fbd511 *DESCRIPTION
+72b4b4c85ec2f4a9e4e70b5fd71b04cc *DESCRIPTION
 003d3d9a8f6ff0a908515a3b2e6f09ed *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
@@ -21,7 +21,7 @@ eb150e182d6be933b1850442682fdebc *R/QQplots.R
 e3443842da0d007796d50e3e174d81c5 *R/Regression.R
 90eead6230825ab7bebe9be26c853e2f *R/RiskMeasures.R
 8064330a74083fcc70cf4f3ce2c05a57 *R/Scale.R
-0a1f0ca380b10c17a4e228a8f8e36e37 *R/Splicing.R
+b04ba4d0e4d603a8ac45d256b55ef54c *R/Splicing.R
 3d97da75b0656d82c8eb7d0a3c730b2b *R/Splicing_EM.R
 f6ba658cf279787ae73be2f62cf016a8 *R/Splicing_plots.R
 b3e4c8a8690b304fbb2c86b23d35bae9 *R/Truncation.R
@@ -29,14 +29,14 @@ a19aa91ca317906fb2e8e98d0e758cd8 *R/TruncationMLE.R
 c2bcd7a99fd4265b47ce551ad6a44daa *R/Turnbull_KM.R
 2024b435a4acdd27f73cd5d92c9ac05b *R/cEPD.R
 347af1fb261e39e4fced1fe8e3d40e98 *R/stdf.R
-57a520a65c999e96ee14027e31bd309e *build/vignette.rds
+d34171de8826194f8c5699983fbe7822 *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-9d7d42134ba3534226b4724a75204a68 *inst/NEWS.Rd
+f8ca3ceb7bc14ac2ccd9d23c5fd24fa9 *inst/NEWS.Rd
 50cb4446eb9162834fcccad6eb77902f *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-a3b42854a48b9fa0d747536dc31f068b *inst/doc/ReIns.html
+143e101da0539eb54521618a747eb36f *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 118b90b7767a44c989f93e738a8aaae7 *man/EPD.Rd
