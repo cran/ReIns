@@ -1,4 +1,4 @@
-72b4b4c85ec2f4a9e4e70b5fd71b04cc *DESCRIPTION
+ed969babda65b063215da8c805796ef8 *DESCRIPTION
 003d3d9a8f6ff0a908515a3b2e6f09ed *NAMESPACE
 ba7e784bae192dce38c7d9c86ea9d9d3 *R/Approximations.R
 f2b9cf312b267ffc1ce381f38a451354 *R/CensRegression.R
@@ -29,14 +29,14 @@ a19aa91ca317906fb2e8e98d0e758cd8 *R/TruncationMLE.R
 c2bcd7a99fd4265b47ce551ad6a44daa *R/Turnbull_KM.R
 2024b435a4acdd27f73cd5d92c9ac05b *R/cEPD.R
 347af1fb261e39e4fced1fe8e3d40e98 *R/stdf.R
-d34171de8826194f8c5699983fbe7822 *build/vignette.rds
+653b749a07810fa264c5d7188b7557e4 *build/vignette.rds
 ca5958cb8ea3bb2a31866a71e341bb20 *data/norwegianfire.RData
 4a6dd973cd1d8fa7591cab287358fc64 *data/secura.RData
 a297bbecce6bab9fe84d6ba8db7e6183 *data/soa.RData
-f8ca3ceb7bc14ac2ccd9d23c5fd24fa9 *inst/NEWS.Rd
-50cb4446eb9162834fcccad6eb77902f *inst/doc/ReIns.R
+7db7671f10adb5992cb33bb1b71a415c *inst/NEWS.Rd
+84c0aa57e2561d325cd21a90db1bbd7e *inst/doc/ReIns.R
 28c478385776e3631e1d92db893c6fba *inst/doc/ReIns.Rmd
-143e101da0539eb54521618a747eb36f *inst/doc/ReIns.html
+61b405c295d66503d8e396961b9241f9 *inst/doc/ReIns.html
 aa4c35359056a070c5452e54e80179d4 *man/Burr.Rd
 cbdd478c6041d0fb51f803e9a4778465 *man/CTE.Rd
 118b90b7767a44c989f93e738a8aaae7 *man/EPD.Rd

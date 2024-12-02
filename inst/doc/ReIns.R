@@ -167,10 +167,10 @@ MeanExcess(size)
 abline(v=quantile(size, c(0.5,0.996)), lty=2)
 
 ## ----eval=FALSE---------------------------------------------------------------
-#  
-#  # Splicing of Mixed Erlang (ME) and 2 Pareto pieces
-#  # Use 3 as initial value for M
-#  spliceFit <- SpliceFitPareto(size, const=c(0.5,0.996), M=3)
+# 
+# # Splicing of Mixed Erlang (ME) and 2 Pareto pieces
+# # Use 3 as initial value for M
+# spliceFit <- SpliceFitPareto(size, const=c(0.5,0.996), M=3)
 
 ## -----------------------------------------------------------------------------
 # Create MEfit object
