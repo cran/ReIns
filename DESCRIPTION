@@ -1,6 +1,6 @@
 Package: ReIns
-Version: 1.0.15
-Date: 2024-11-30
+Version: 1.0.16
+Date: 2026-02-27
 Title: Functions from "Reinsurance: Actuarial and Statistical Aspects"
 Description: Functions from the book "Reinsurance: Actuarial and Statistical Aspects" (2017) by Hansjoerg Albrecher, Jan Beirlant and Jef Teugels <https://www.wiley.com/en-us/Reinsurance%3A+Actuarial+and+Statistical+Aspects-p-9780470772683>.
 Authors@R: c(
@@ -23,9 +23,10 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 NeedsCompilation: yes
 ByteCompile: yes
-Packaged: 2024-11-30 13:02:34 UTC; tom
-Author: Tom Reynkens [aut, cre] (<https://orcid.org/0000-0002-5516-5107>),
-  Roel Verbelen [aut] (R code for Mixed Erlang distribution,
+Packaged: 2026-02-27 18:20:02 UTC; tomre
+Author: Tom Reynkens [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-5516-5107>),
+  Roel Verbelen [aut] (R code for Mixed Erlang distribution, ORCID:
     <https://orcid.org/0000-0002-2347-9240>),
   Anastasios Bardoutsos [ctb] (Original R code for cEPD estimator),
   Dries Cornilly [ctb] (Original R code for EVT estimators for truncated
@@ -33,4 +34,4 @@ Author: Tom Reynkens [aut, cre] (<https://orcid.org/0000-0002-5516-5107>),
   Yuri Goegebeur [ctb] (Original S-Plus code for basic EVT estimators),
   Klaus Herrmann [ctb] (Original R code for GPD estimator)
 Repository: CRAN
-Date/Publication: 2024-12-02 09:30:05 UTC
+Date/Publication: 2026-02-27 18:52:04 UTC
